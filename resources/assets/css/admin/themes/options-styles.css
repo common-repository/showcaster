@@ -1,0 +1,315 @@
+
+.notice-warning,
+.settings-error,
+.notice,
+.is-dismissible {
+    display:none;
+}
+
+
+.shwc_template {
+    width:100% !important;
+    background:#4f2020;
+}
+/*#############GRID ITEM#############*/
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item {
+    margin-bottom:10px;
+    height:auto;
+    background:rgba(250, 250, 250,1);
+    border-radius:5px;
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item:hover {
+    background:rgba(236, 236, 236,1);
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item .images_list {
+    width:30%;
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item .info_block {
+    padding-left:5%;
+    width:65%;
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item .title {
+    font-size:18px;
+    line-height:20px;
+    color:#333333;
+    font-family:arial;
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item:hover .title { }
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item .description {
+    display:none;
+    font-size:30px;
+    line-height:32px;
+    color:#333333;
+    font-family:inherit;
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item:hover .description { color:#000; }
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item .price {
+    font-size:16px;
+    line-height:18px;
+    color:#333333;
+    font-family:inherit;
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item:hover .price { color:#000; }
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item .discont_price {
+    font-size:16px;
+    line-height:18px;
+    color:#33acdd;
+    font-family:inherit;
+}
+.shwc_pc_wrapper.pc_view6 .shwcgrid-item:hover .discont_price { color:#000; }
+ 
+   
+
+ /*#############ITEM POPUP / MODAL################*/
+
+  .modal {
+      background:rgba(0, 0, 0,0.9);
+  }
+.modal .modal_content {
+    width:90%;
+    background-color:#fdfdfd}
+.modal_content .images_block .thumbs_list_wrap {
+    background:rgb(245, 245, 245)}
+.modal_content .images_block .thumbs_list_wrap::-webkit-scrollbar-track {
+    background:rgb(235, 235, 235)}
+.modal_content .images_block .thumbs_list_wrap::-webkit-scrollbar-thumb {
+    background-color:rgb(215, 215, 215)}
+.modal_content .info_block {
+    background:rgb(245, 245, 245)}
+.modal_content .attributes_block {
+    border-top:3px solid #e3e3e3}
+.modal_content .images_block {
+    border-right:3px solid #e3e3e3}
+.prev_modal_button svg path,
+.next_modal_button svg path,
+.close_modal_wrapper svg path {
+    fill:#ffffff;
+}
+.modal .prev_modal_button svg.mobile_prev_modal_svg path,
+.modal .next_modal_button svg.mobile_next_modal_svg path {
+    fill:#333333;
+}
+@media screen and (max-width:767px) {
+
+    .modal_content .images_block .thumbs_list_wrap .thumbs_nav_list li {
+        background:rgb(152, 152, 152);
+    }
+    .modal_content .images_block .thumbs_list_wrap .thumbs_nav_list li.active {
+        background:rgb(3, 3, 3);
+    }
+    .modal_content .info_block .product_price {
+        background:rgb(245, 245, 245)    }
+    .modal .close_modal_wrapper .shwc_info_menu { color:#ffffff; }
+    .modal .close_modal_wrapper {
+        background:#000000;
+    }
+    .mobile_info_menu {
+        background:rgba(0, 0, 0,0.8);
+    }
+}
+.modal_content .info_block .product_heading {
+    font-size:30px;
+    line-height:30px;
+    color:#333333;
+    font-family:inherit;
+}
+.modal_content .info_block .description_content {
+    color:#303030;
+    font-family:inherit;
+}
+.modal_content .info_block .product_price .old_price {
+    font-size:24px;
+    line-height:26px;
+    color:#303030;
+    font-family:inherit;
+}
+.modal_content .info_block .product_price .old_price .old_price_inner {
+    color:#303030;
+}
+.modal_content .info_block .product_price .discount_price {
+    font-size:24px;
+    line-height:26px;
+    color:#33acdd;
+    font-family:inherit;
+}
+.modal_content .info_block .info_label {
+    font-size:20px;
+    line-height:22px;
+    color:#333333;
+    font-family:inherit;
+}
+.modal_content .info_block .info_label {
+    font-size:20px;
+    line-height:22px;
+    color:#333333;
+    font-family:inherit;
+}
+.modal_content .info_block .attributes_list li,
+.modal_content .info_block .product_categories .categories_list li {
+    font-size:18px;
+    line-height:20px;
+    color:#303030;
+    font-family:inherit;
+}
+ 
+   
+
+ /*###################ITEM PAGE##################*/
+
+  .item_page_content .info_block .product_heading {
+      font-size:25px;
+      line-height:25px;
+      color:#333333;
+      font-family:inherit;
+  }
+.item_page_content .info_block .description_content {
+    font-size:16px;
+    line-height:18px;
+    color:#303030;
+    font-family:inherit;
+}
+.item_page_content .info_block .product_price .old_price {
+    font-size:20px;
+    line-height:22px;
+    color:#303030;
+    font-family:inherit;
+}
+.item_page_content .info_block .product_price .old_price_inner { color:#303030; }
+.item_page_content .info_block .discount_price {
+    font-size:20px;
+    line-height:22px;
+    color:#33acdd;
+    font-family:inherit;
+}
+.item_page_content .info_block .info_label {
+    font-size:17px;
+    line-height:19px;
+    color:#303030;
+    font-family:inherit;
+}
+.item_page_content .info_block .info_label svg path {
+    fill:#303030;
+}
+.item_page_content .info_block .attributes_list li,
+.item_page_content .info_block .product_categories .categories_list li {
+    font-size:15px;
+    line-height:17px;
+    color:#303030;
+    font-family:inherit;
+}
+@media screen and (max-width:767px) {
+    /* IF You Add ItemPageBackgorund option
+    .item_page_content,
+    .item_page_content .info_block .product_heading,
+    .item_page_content .info_block .attributes_block,
+    .item_page_content .info_block .product_description {
+
+        border-color:RGB;
+    }*/
+}
+
+
+   /*###################CATEGORY BUTTONS##################*/
+
+  .categories_list > div button {
+      font-size:14px;
+      line-height:16px;
+      color:#262626;
+      font-family:arial;
+      padding:5px 10px;
+      background:#fcfcfc;
+      margin:0px 4.5px 0px 4.5px;
+      border:1px solid #262626;
+      border-radius:3px;
+      text-align:center;
+  }
+.categories_list > div button:hover,
+.categories_list > div button.is-checked {
+    background:#fcfcfc;
+    border-color:#33acdd;
+}
+ 
+   
+
+      /*###################ORDERING BUTTONS##################*/
+
+      /*###################CATEGORY BUTTONS##################*/
+
+  .ordering_butons_list > div button {
+      font-size:14px;
+      line-height:16px;
+      color:#262626;
+      font-family:arial;
+      padding:2.5px 5px;
+      background:#ffffff;
+      margin:0px 2.5px 0px 2.5px;
+      border-bottom:2px solid #262626;
+  }
+.ordering_butons_list > div button:hover,
+.ordering_butons_list > div button.is-checked {
+    background:#ffffff;
+    border-color:#33acdd;
+}
+ 
+   
+
+      /*###################SEARCH FIELD##################*/
+
+  .shwc_template .search_form {
+      border-radius:3px;
+      /* border:12px solid #FFF;*/
+  }
+.shwc_template .search_form input[type="text"] {
+    font-size:14px;
+    line-height:16px;
+    color:#262626;
+    font-family:arial;
+    background:#ffffff;
+    border-color:#ffffff;
+    border-radius:3px;
+    padding:4px 33.4px 4px 4px;
+}
+.shwc_template .search_form input[type="text"]:focus {
+    /* border-color: #170000 ;*/
+}
+.shwc_template .search_form button {
+    height:26px;
+    width:28.4px;
+    background:#170000;
+}
+.shwc_template .search_form button:hover,
+.shwc_template .search_form button:focus,
+.shwc_template .search_form button:active {
+    background:#33acdd;
+}
+.shwc_template .search_form button svg {
+    width:16px;
+    height:16px;
+}
+.shwc_template .search_form button svg path {
+    fill:#f8f4f4;
+}
+ 
+   
+
+.shwc_template_center .load_more_wrapper .load_more_button {
+    position:absolute;
+    left:0px;
+    right:0px;
+}
+
+
+.shwc_template_center .load_more_wrapper .load_more_button:hover {
+
+}
+
+.shwc_template_center /*.load_more_wrapper*/ .loadingImage {
+    position:absolute;
+    left:0px;
+    right:0px;
+    clear:both;
+    margin:0px auto;
+    width: 60px;
+    height: 60px;
+}
+ 

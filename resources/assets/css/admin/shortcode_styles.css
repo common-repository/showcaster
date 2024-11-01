@@ -1,0 +1,44 @@
+.shwc_catalog_shortcode_form {
+    position:absolute;
+    display:block;
+    padding-top:10px;
+    min-width:600px;
+}
+.shwc_catalog_shortcode_form .heading {
+    display:block;
+    font-size:14px;
+    color:#131313;
+    margin:10px 0px 15px 0px;
+}
+.shwc_catalog_shortcode_form .catalog_selectbox {
+    width:225px;
+    height:30px;
+    margin-right:23px;
+    margin-top:-4px;
+    background:#fff;
+    border-bottom:1px solid #303030;
+    outline:none;
+    box-shadow:none;
+}
+.shwc_catalog_shortcode_form .shortcode_button {
+    display:inline-block;
+    border-radius:16px;
+    margin-right:13px;
+    padding:12px 20px 12px 20px;
+    font-size:12px;
+    line-height:10px;
+    border:0px;
+    box-shadow:none;
+    cursor:pointer;
+    box-sizing:border-box;
+    outline:none;
+}
+.shwc_catalog_shortcode_form .shortcode_button.insert {
+    background:#2e5aef;
+    color:#fff;
+}
+.shwc_catalog_shortcode_form .shortcode_button.cancel {
+    background:#fff;
+    border:2px solid #2e5aef;
+    color:#2e5aef;
+}

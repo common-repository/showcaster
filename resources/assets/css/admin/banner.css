@@ -1,0 +1,48 @@
+.shwp_grid_list_container .shwp_grid_list_content {
+    padding:0 30px;
+    border-top:none;
+}
+.shwproduct_header {
+    padding:20px 30px 40px;
+    font-size:20px;
+    color:#fff;
+    background-color:#23282d;
+}
+.shwproduct_header span {
+    position:relative;
+    top:25px;
+    font-size:40px;
+    left:120px;
+}
+.shwproduct_header ul {
+    float:right;
+    position:relative;
+    top:20px;
+}
+.shwproduct_header li {
+    display:inline-block;
+    padding:0 20px;
+}
+.shwproduct_header li a {
+    color:#fff;
+    font-family:Nunito;
+    font-size:19px;
+    text-decoration:none;
+}
+.shwproduct_header li:hover:after {
+    content:'';
+    background-color:#fff;
+    display:block;
+    height:5px;
+    border-radius:2px;
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:-20px;
+}
+.shwicon.shwicon-logo:before {
+    content:url('../../images/icons/logo.png');
+    position:absolute;
+    z-index:20;
+    top:-10px;
+}

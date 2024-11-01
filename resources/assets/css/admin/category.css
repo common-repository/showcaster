@@ -1,0 +1,87 @@
+
+.notice-warning,
+.settings-error,
+.notice,
+.is-dismissible {
+    display:none;
+}
+
+h2 {
+    font-size:1.7em !important;
+}
+
+.nosubsub {
+    width:97%;
+    float:left;
+    padding:25px;
+}
+
+.shwc_categories_edit .buttons_block {
+    margin-top:15px;
+    display:block;
+    position:relative;
+}
+
+.shwc_categories_edit .buttons_block .button {
+    display:block;
+    float:left;
+    outline:none;
+    box-shadow:none;
+    color:#fff;
+    padding:8px 20px;
+    border-radius:6px;
+    border:0px;
+    line-height:16px;
+    height:31px;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:normal;
+    text-decoration:none;
+    background:#5f7df5;
+    border-bottom:1px solid #5f7df5;
+}
+
+.shwc_categories_edit .buttons_block .button:hover {
+    background:#486bf7;
+    color:#fff;
+    text-decoration:none;
+}
+
+.shwc_categories_edit .buttons_block a,.shwc_categories_edit .buttons_block a:link, .shwc_categories_edit .buttons_block a:visited {
+    top:5px;
+    left:20px;
+    font-size:16px;
+    color:#dc3232;
+    text-decoration:none
+}
+
+.shwc_categories_edit .buttons_block a:hover {
+    text-decoration:underline;
+}
+
+.widefat th input {
+    margin:0 0 0 8px !important;
+}
+
+/* Search Button */
+#searchCategory {
+    padding:0px 10px;
+    height:30px;
+    border:1px solid #5f7df5;
+    background-color:#fff;
+    color:#5f7df5;
+    border-radius:5px;
+    width:100px;
+}
+#searchCategory:hover {
+    background:#5f7df5;
+    color:#fff
+}
+#categoryTerm {
+    width:238px;
+    height:38px;
+    border-width:0px;
+    border:0 !important;
+    height:29px;
+    margin-top:1px;
+}
